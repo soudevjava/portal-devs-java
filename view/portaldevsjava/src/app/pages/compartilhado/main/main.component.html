@@ -1,0 +1,24 @@
+<mat-toolbar color="primary">
+  <img src="../../assets/logo.png" alt="Logo" class="logo-img" id="logo">
+  <span class="devs-java"> Devs Java</span>
+  <span class="espacamento-toolbar"></span>
+  <div class="left-buttons">
+    <button mat-button routerLink="/" class="custom-button" id="home-btn">Home</button>
+    <button mat-button routerLink="/forum" class="custom-button" id="forum-btn">Fórum</button>
+    <button mat-button routerLink="/projetos" class="custom-button" id="projetos-btn">Projetos</button>
+    <button mat-button routerLink="/contato" class="custom-button" id="contato-btn">Contato</button>
+  </div>
+  <span class="espacamento-toolbar"></span>
+  <button mat-button routerLink="/login"  class="custom-button" id="login-btn">Login</button>
+    <button mat-icon-button (click)="deslogar()">
+      <mat-icon>logout</mat-icon>
+    </button>
+</mat-toolbar>
+
+<mat-card-content>
+  <router-outlet></router-outlet>
+</mat-card-content>
+
+
+
+

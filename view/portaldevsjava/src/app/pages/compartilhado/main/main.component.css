@@ -1,0 +1,72 @@
+.espacamento-toolbar {
+  flex: 1 1 auto;
+}
+
+.custom-button {
+  margin-right: 10px;
+  font-size: 20px;
+  text-align: left;
+}
+
+
+
+.devs-java{
+  font-size: 25px;
+}
+
+#home-btn {
+  /* Estilos específicos para o botão Home */
+}
+
+#forum-btn {
+  /* Estilos específicos para o botão Fórum */
+}
+
+#projetos-btn {
+  /* Estilos específicos para o botão Projetos */
+}
+
+#contato-btn {
+  /* Estilos específicos para o botão Contato */
+}
+
+#logout-btn {
+  margin-left: 10px;
+}
+
+body {
+  background-color: #01849f;
+}
+
+.mat-toolbar {
+  background-color: #01849f;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mat-card-content {
+  background-color: white;
+}
+
+.logo-img {
+  width: 60px;
+  height: 60px;
+}
+
+#logo {
+  margin-right: 10px;
+}
+
+.search-input-field {
+  background-color: transparent;
+  transition: background-color 0.3s;
+  width: 100px; /* Defina a largura desejada */
+  height: 24px; /* Defina a altura desejada */
+  font-size: 14px;
+  padding: 2px 6px; /* Ajuste o espaçamento interno conforme necessário */
+  border: 1px solid white; /* Adicione uma borda branca */
+  border-radius: 4px; /* Adicione um raio de borda */
+  box-sizing: border-box; /* Inclua o espaço da borda na largura e altura total */
+}
